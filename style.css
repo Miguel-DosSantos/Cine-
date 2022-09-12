@@ -9,7 +9,9 @@ body{
 }
 header{
     position: fixed;
+    z-index: 1;
 }
+
 #h1especial{
     font-size: 60px;
     color: white;
@@ -61,7 +63,8 @@ img{
     height: 100vh;
     position: absolute;
     top: 900px;
-    background-color: black;
+    height: 600px;
+    width: 1583px;
 }
 #div2{
     position: absolute;
@@ -90,4 +93,43 @@ video{
 #entrarb:hover{
     background-color: black;
     color: black;
+}
+#div3{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    height: 60px;
+    width: 600px;
+}
+#section3{
+    position: absolute;
+    top: 1500px;
+    height: 600px;
+    width: 1583px;
+}
+#imgkids{
+    position: absolute;
+    left: 800px;
+}
+.buttonduvidas{
+    border: 0;
+    margin-bottom: 7px;
+    position: relative;
+    width: 750px;
+    height: 70px;
+    background-color: #303030;
+    text-align: left;
+    padding-left: 10px ;
+}
+#section4{
+    position: absolute;
+    top: 2300px;
+    left: 380px;
+    height: 600px;
+    width: px;
+}
+#div4{
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
 }
